@@ -1,9 +1,9 @@
 import funcs as f
 
 f.st.set_page_config(page_title= "ForMyLove 💜", 
-                     page_icon= ".\.streamlit\Sources\Images\Icon.png")
+                     page_icon= "./.streamlit/Sources/Images/Icon.png")
 
-f.st.logo(".\.streamlit\Sources\Images\sideIcon.png", size="large")
+f.st.logo("./.streamlit/Sources/Images/sideIcon.png", size="large")
 f.st.sidebar.text("Feito para meu Dengo 💗")
 
 col1, col2, col3 = f.st.columns([1.6,2,1.5])
